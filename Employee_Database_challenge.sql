@@ -53,3 +53,6 @@ WHERE (de.to_date = '9999-01-01') AND
 	(em.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
 ORDER BY em.emp_no;	
 
+-- To get to Total Employees
+SELECT COUNT (emp_no)
+FROM employees;
